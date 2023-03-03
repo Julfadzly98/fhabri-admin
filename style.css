@@ -596,3 +596,11 @@ h3{
     width: 90%;
     height: 1500px;
 }
+
+@media(max-width:700px){
+    .gds iframe {
+        width: 50%;
+        height: 500px;
+    }
+}
+
