@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>AMR | SDK</title>
+        <link rel="icon" type="images/bg" href="images/logo.png"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img style="width: 100px;" src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+              <li class="fa fa-times" onclick="hideMenu()"></li>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="events.html">ACTIVITY</a></li>
+              </ul> 
+           </div>
+           <li class="fa fa-bars" onclick="showMenu()"></li>
+       </nav>
+       <br>
+       <br>
+       <br>
+       <h1>Contact Us</h1>
+    </section>
+
+<!-----Contact Me------>   
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.951174352085!2d118.03465981529786!3d5.862489295752466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3238dbbd319f8f27%3A0xd601be26f1c3c399!2sSRI%20Ar-Raudhah%20Sandakan!5e0!3m2!1sen!2smy!4v1677840292258!5m2!1sen!2smy" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+              <div class="contact-col">
+                  <div>
+                      <i class="fa fa-home"></i>
+                      <span>
+                          <h5>Taman Anggerik Perdana, Batu 8</h5>
+                          <p>90000, Sandakan, Sabah</p>
+                      </span>
+                  </div>
+                  <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+6010-446 3136</h5>
+                            <p>Monday to Sunday, 10AM to 5PM</p>
+                        </span>
+                  </div>
+                  <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>julfhabri@gmail.com</h5>
+                        <p>Email me your query</p>
+                    </span>
+                  </div>
+              </div>
+              <div class="contact-col">
+                  <form action="">
+                      <div><h5>Keep in touch with us</h5></div>
+                      <!-- <form action="https://docs.google.com/document/u/0/"> -->
+                        <a href="/index.html" class="hero-btn red-btn">Dashboard</a>
+                    <!-- </form> -->
+                  </form>
+              </div>
+        </div>
+    </section>
+
+<!-----Footer------>
+
+<section class="footer">
+    <h5>Akademi Memanah Raudhah Sandakan</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Jul Maker</p>
+</section>
+
+<!-----Js Script for toggle menu------>
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+</html>
